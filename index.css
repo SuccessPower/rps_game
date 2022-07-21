@@ -1,0 +1,121 @@
+body {
+    margin: 0px;
+    background-color: #63BAAA;
+}
+
+.game-div {
+    background-color: #FCEAFF;
+    margin: 150px;
+}
+
+
+h1 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#rock {
+    color: #7332DD;
+}
+
+#paper {
+    color: #63BAAA;
+}
+
+#scissors {
+    color: #7332DD;
+}
+
+.container {
+    margin: 100px;
+    margin-bottom: 0px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+    text-align: center;
+}
+
+.player1Div {
+    /* background-color: #63BAAA; */
+    height: 300px;
+    width: 2fr;
+    border: 1px solid none;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+}
+
+.player1name {
+    background-color: #7332DD;
+    border-radius: 5px;
+    color: #FCEAFF;
+    height: 30px;
+    padding-top: 10px;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;    
+    padding-bottom: 0px;
+    
+}
+
+.player2Div {
+    /* background-color: gray; */
+    height: 300px;
+    width: 2fr;
+    border: 1px solid none;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 0px;
+
+}
+
+.player2name {
+    background-color: #7332DD;
+    border-radius: 5px;
+    color: #FCEAFF;
+    height: 30px;
+    /* width: 150px; */
+    padding-top: 10px;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;   
+}
+
+img {
+    width: 40%;
+    height: 50%;
+}
+
+#result {
+    text-align: center;
+    font-size: 50px; 
+    margin: 0px;
+    margin-bottom: 5px;
+    background-color: white;
+}
+
+.btn-div {
+    text-align: center;
+    margin: auto;
+}
+
+#play-btn {
+    background-color: #63BAAA;
+    border-style: none;
+    border-radius: 5px;
+    color: #FCEAFF;
+    font-weight: bold;
+    height: 40px;
+    width: 200px;
+    padding-top: 5px;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;   
+    margin-bottom: 50px; 
+}
+
+#play-btn:hover {
+    background-color: #7332DD;
+    color: #FCEAFF;
+}
